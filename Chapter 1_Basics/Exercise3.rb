@@ -10,13 +10,28 @@ This exercise involves an array with movie titles and the following pre-defined 
 2001
 1981
 
+Original Code:
 
-=end
-
-{:Jaws => '1975', :Superman2 => '1981', :Shrek => '2001', :Troy => '2004', :Frozen =>'2013'}
+{:Jaws => '1975', :Superman_2 => '1981', :Shrek => '2001', :Troy => '2004', :Frozen =>'2013'}
 
 [:Jaws]
-[:Superman2]
+[:Superman_2]
 [:Shrek]
 [:Troy]
 [:Frozen]
+
+=end
+
+
+movies = { Jaws: 1975,
+        Superman_2: 1981
+        Troy: 2004,
+        Shrek: 2001,
+        frozen: 2013,
+           }
+
+puts movies[:Jaws]
+puts movies[:Superman_2]
+puts movies[:Shrek]
+puts movies[:Troy]
+puts movies[:Frozen]
