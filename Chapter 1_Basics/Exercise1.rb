@@ -1,4 +1,6 @@
-# This is from chapter 1, https://launchschool.com/books/ruby/read/basics#exercises #
+=begin
+
+ This is from chapter 1, https://launchschool.com/books/ruby/read/basics#exercises 
 
 print "What's your first name? "
 First_Name = gets
@@ -12,3 +14,8 @@ print "Got it, your last name is #{Last_Name}."
 
 
 puts "Your full name is #{First_Name} #{Last_Name}!"
+
+=end
+
+
+"Lynn" + "Swayze"
